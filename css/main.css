@@ -1513,6 +1513,18 @@ header .logo a {
 	overflow: hidden;
 	margin: 0 auto;
 }
+
+@media only screen and (max-width:768px) {
+
+	.intro-info .img-wrapper {
+		height: 15rem;
+		width: 15rem;
+	}
+	.intro-info img {
+		height: auto;
+		width: 15rem;
+	}
+}
 .intro-info .lead {
 	text-align: left;
 	padding-left: 13rem;
@@ -1582,10 +1594,6 @@ header .logo a {
 	}
 }
 @media only screen and (max-width:768px) {
-	.intro-info img {
-		height: 7.8rem;
-		width: 7.8rem;
-	}
 	.intro-info .lead {
 		padding-left: 11rem;
 	}
@@ -1607,12 +1615,6 @@ header .logo a {
 	.intro-info {
 		text-align: center;
 		margin-top: 3rem;
-	}
-	.intro-info img {
-		height: 6.6rem;
-		width: 6.6rem;
-		float: none;
-		display: inline-block;
 	}
 	.intro-info .lead {
 		padding-left: 0;
