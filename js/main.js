@@ -44,7 +44,7 @@
 	/*---------------------------------------------------- */
 	/* Owl Carousel
 	------------------------------------------------------ */ 
-	$("#owl-slider").owlCarousel({
+	$(".owl-carousel").owlCarousel({
         navigation: false,
         pagination: true,
         itemsCustom : [
