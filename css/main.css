@@ -2044,7 +2044,7 @@ p.justify {
 	text-align: center;
 }
 #cta hr {
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 }
 #cta p.lead {
 	color: #6e6e6e;
@@ -2058,9 +2058,11 @@ p.justify {
 	width: 7.8rem;
 	border-radius: 50%;
 }
-#cta .block {
-	display: flex;
-	align-items: center;
+@media screen and (min-width: 768px) {
+	#cta .block {
+		display: flex;
+		align-items: center;
+	}
 }
 #cta .block .img-wrapper img {
 	border-radius: 0.8rem;
