@@ -45,14 +45,14 @@
 	/* Owl Carousel
 	------------------------------------------------------ */ 
 	$(".owl-carousel").owlCarousel({
-        navigation: false,
+        navigation: true,
         pagination: true,
         itemsCustom : [
 	        [0, 1],
 	        [700, 2],
 	        [960, 3]
-	     ],
-        navigationText: false
+		],
+        navigationText: ['<i class=\'fa fa-chevron-left\'></i>', "<i class='fa fa-chevron-right'></i>"]
     });
 
 

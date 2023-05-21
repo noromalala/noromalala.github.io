@@ -2171,7 +2171,41 @@ header .logo a {
 .services-list .desc {
 	color: rgba(255, 255, 255, 0.6);
 }
-
+/** global **/
+.mt-5 {
+	margin-top: 5rem !important;
+}
+.title-center {
+	text-align: center;
+	position: relative;
+	max-width: 500px;
+	margin: auto;
+}
+.title-center .title {
+	text-transform: uppercase;
+	display: grid;
+	grid-template-columns: 1fr max-content 1fr;
+	grid-template-rows: 27px 0;
+	grid-gap: 20px;
+	align-items: center;
+	color: white;
+}
+.title-center .title::before {
+	content: " ";
+	display: block;
+	border-bottom: 1px solid #FF0077;
+	border-top: 1px solid #FF0077;
+	height: 5px;
+	background-color: transparent;
+}
+.title-center .title::after {
+	content: " ";
+	display: block;
+	border-bottom: 1px solid #FF0077;
+	border-top: 1px solid #FF0077;
+	height: 5px;
+	background-color: transparent;
+}
 /* pagination */
 .owl-pagination {
 	text-align: center;
@@ -2194,6 +2228,16 @@ header .logo a {
 	background: #FF0077;
 }
 
+.owl-prev, .owl-next {
+	position: absolute;
+	top: 56px;
+}
+.owl-prev {
+	left: 0;
+}
+.owl-next {
+	right: 0;
+}
 
 /** 
  * ===================================================================
