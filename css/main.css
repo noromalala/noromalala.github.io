@@ -154,7 +154,7 @@ p img {
 }
 p.lead {
 	font-family: "lora-regular", serif;
-	font-size: 2rem;
+	font-size: 1.7rem;
 	line-height: 1.8;
 	color: #888888;
 }
@@ -1568,7 +1568,7 @@ header .logo a {
 .about-content .skill-bars {
 	margin-top: 6rem;
 }
-.about-content p.justify {
+p.justify {
 	text-align: justify;
 }
 
@@ -2043,11 +2043,11 @@ header .logo a {
 	padding-bottom: 9rem;
 	text-align: center;
 }
+#cta hr {
+	margin-bottom: 60px;
+}
 #cta p.lead {
 	color: #6e6e6e;
-}
-.cta-content {
-	max-width: 640px;
 }
 .cta-thumb {
 	display: inline-block;
@@ -2057,6 +2057,13 @@ header .logo a {
 	height: 7.8rem;
 	width: 7.8rem;
 	border-radius: 50%;
+}
+#cta .block {
+	display: flex;
+	align-items: center;
+}
+#cta .block .img-wrapper img {
+	border-radius: 0.8rem;
 }
 
 /**
@@ -2174,6 +2181,24 @@ header .logo a {
 /** global **/
 .mt-5 {
 	margin-top: 5rem !important;
+}
+.title-left {
+	text-align: left;
+	position: relative;
+}
+.title-left .title {
+	padding-bottom: 1.1rem;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.title-left:after {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 60px;
+	height: 2px;
+	content: "";
+	background-color: #FF0077;
 }
 .title-center {
 	text-align: center;
