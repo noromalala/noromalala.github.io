@@ -2038,36 +2038,27 @@ p.justify {
  *
  * ------------------------------------------------------------------- 
  */
-#cta {
+#news {
 	padding-top: 10.2rem;
 	padding-bottom: 9rem;
 	text-align: center;
 }
-#cta hr {
+#news hr {
 	margin-bottom: 50px;
 }
-#cta p.lead {
+#news p.lead {
 	color: #6e6e6e;
 }
-.cta-thumb {
-	display: inline-block;
-	margin-bottom: 1.2rem;
-}
-.cta-thumb img {
-	height: 7.8rem;
-	width: 7.8rem;
-	border-radius: 50%;
-}
 @media screen and (min-width: 768px) {
-	#cta .block {
+	#news .block {
 		display: flex;
 		align-items: center;
 	}
 }
-#cta .block .img-wrapper img {
+#news .block .img-wrapper img {
 	border-radius: 0.8rem;
 }
-#cta .section-intro {
+#news .section-intro {
 	color: #FF0077;
 }
 
