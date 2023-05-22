@@ -2067,6 +2067,9 @@ p.justify {
 #cta .block .img-wrapper img {
 	border-radius: 0.8rem;
 }
+#cta .section-intro {
+	color: #FF0077;
+}
 
 /**
  * section ads - (_layout.scss)
