@@ -2277,7 +2277,6 @@ p.justify {
 }
 #stats .stat {
 	border-left: 1px solid rgba(255, 255, 255, 0.12);
-	min-height: 17.4rem;
 }
 #stats .stat:first-child {
 	border: none;
@@ -2296,6 +2295,11 @@ p.justify {
 }
 #stats .stat-title {
 	color: rgba(255, 255, 255, 0.5);
+	font-size: 1.4rem;
+	line-height: 1.714;
+	text-transform: inherit;
+	margin-top: 7px;
+	font-style: italic;
 }
 
 /**
