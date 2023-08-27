@@ -1012,7 +1012,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .percent95  { width: 95%; }
 .skill-bars li .percent100 { width: 100%; }
 
-
+.row.item-center {
+	display: flex;
+	align-items: center;
+}
 /** 
  * ===================================================================
  * 08. common styles (_layout.scss)
@@ -1024,6 +1027,18 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .grey-section p.lead {
 	color: #7d7d7d;
+}
+.intro-page {
+	background-color: white !important;
+	background-image: none !important;
+	padding: 50px 0;
+}
+
+.intro-page p.lead {
+	color: #555;
+}
+.intro-page hr {
+	margin: 2.4rem 0 2.5rem;
 }
 .section-intro {
 	max-width: 700px;
@@ -1917,6 +1932,11 @@ p.justify {
 }
 .popup-modal .description-box {
 	padding: 1.8rem 3.6rem 3rem;
+}
+.popup-modal .description-box em {
+	font-family: inherit;
+	font-style: italic;
+	font-size: inherit;
 }
 .popup-modal .description-box h4 {
 	font-family: "poppins-bold", sans-serif;
